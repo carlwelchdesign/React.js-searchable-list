@@ -1,0 +1,27 @@
+.filter-list {
+  width: 456px;
+  padding: 15px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.filter-list input {
+  width: 100%;
+  height: 47px;
+  font-size: 1.2em;
+  margin: 0;
+  padding: 10px;
+  border: 1px #D1D0CF solid;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+.filter-list input:focus { 
+    border-color: #FB8A4B;
+    outline: 1px;
+}
+.filter-list input::placeholder {
+  color: #D1D0CF;
+}
+@media only screen and (max-width: 456px)  {
+  .filter-list {
+    width: 100%;
+  }
+}
